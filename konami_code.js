@@ -9,10 +9,10 @@ function init() {
       i++;
       if (i === code.length) {
         alert("Hurray!");
-        index = 0;
+        i = 0;
       }
     } else {
-      index = 0;
+      indexedDB = 0;
     }
     });
 } 
